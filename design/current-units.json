@@ -1,0 +1,863 @@
+[
+  {
+    "id": "math-equation",
+    "subject": "数学",
+    "sub": "代数",
+    "name": "一次方程式",
+    "grade": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "english-question",
+    "subject": "英語",
+    "sub": "文法",
+    "name": "疑問文と応答",
+    "grade": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "japanese-evidence",
+    "subject": "国語",
+    "sub": "国語3・現代文・語句",
+    "name": "根拠から読み解く",
+    "grade": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "science-wave",
+    "subject": "理科",
+    "sub": "物理・化学",
+    "name": "音と実験",
+    "grade": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "social-climate",
+    "subject": "社会",
+    "sub": "地理",
+    "name": "気候と資料",
+    "grade": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "en-be",
+    "subject": "英語",
+    "sub": "文法",
+    "name": "be動詞と一般動詞",
+    "grade": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "en-noun",
+    "subject": "英語",
+    "sub": "文法",
+    "name": "名詞・代名詞・冠詞",
+    "grade": 1,
+    "prerequisites": [
+      "en-be"
+    ]
+  },
+  {
+    "id": "en-present",
+    "subject": "英語",
+    "sub": "文法",
+    "name": "現在形・頻度・命令文",
+    "grade": 1,
+    "prerequisites": [
+      "en-be"
+    ]
+  },
+  {
+    "id": "en-progressive",
+    "subject": "英語",
+    "sub": "文法",
+    "name": "進行形",
+    "grade": 1,
+    "prerequisites": [
+      "en-be"
+    ]
+  },
+  {
+    "id": "en-past",
+    "subject": "英語",
+    "sub": "文法",
+    "name": "過去形",
+    "grade": 1,
+    "prerequisites": [
+      "en-present"
+    ]
+  },
+  {
+    "id": "en-future-modal",
+    "subject": "英語",
+    "sub": "文法",
+    "name": "未来・助動詞",
+    "grade": 2,
+    "prerequisites": [
+      "en-present"
+    ]
+  },
+  {
+    "id": "en-infinitive",
+    "subject": "英語",
+    "sub": "文法",
+    "name": "不定詞",
+    "grade": 2,
+    "prerequisites": [
+      "en-present"
+    ]
+  },
+  {
+    "id": "en-gerund",
+    "subject": "英語",
+    "sub": "文法",
+    "name": "動名詞・文型",
+    "grade": 2,
+    "prerequisites": [
+      "en-infinitive"
+    ]
+  },
+  {
+    "id": "en-comparison",
+    "subject": "英語",
+    "sub": "文法",
+    "name": "比較",
+    "grade": 2,
+    "prerequisites": [
+      "en-be"
+    ]
+  },
+  {
+    "id": "en-passive",
+    "subject": "英語",
+    "sub": "文法",
+    "name": "受け身",
+    "grade": 3,
+    "prerequisites": [
+      "en-past"
+    ]
+  },
+  {
+    "id": "en-perfect",
+    "subject": "英語",
+    "sub": "文法",
+    "name": "現在完了・完了進行形",
+    "grade": 3,
+    "prerequisites": [
+      "en-past"
+    ]
+  },
+  {
+    "id": "en-relative",
+    "subject": "英語",
+    "sub": "文法",
+    "name": "分詞・関係代名詞",
+    "grade": 3,
+    "prerequisites": [
+      "en-passive"
+    ]
+  },
+  {
+    "id": "en-clause",
+    "subject": "英語",
+    "sub": "文法",
+    "name": "接続詞・間接疑問・仮定法の基礎",
+    "grade": 3,
+    "prerequisites": [
+      "en-future-modal"
+    ]
+  },
+  {
+    "id": "en-reading",
+    "subject": "英語",
+    "sub": "コミュニケーション",
+    "name": "短文読解・必要な情報",
+    "grade": 2,
+    "prerequisites": [
+      "en-past"
+    ]
+  },
+  {
+    "id": "en-dialogue",
+    "subject": "英語",
+    "sub": "コミュニケーション",
+    "name": "会話・依頼・意見を伝える",
+    "grade": 2,
+    "prerequisites": [
+      "english-question"
+    ]
+  },
+  {
+    "id": "ma-signed",
+    "subject": "数学",
+    "sub": "代数",
+    "name": "正負の数",
+    "grade": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "ma-expression",
+    "subject": "数学",
+    "sub": "代数",
+    "name": "文字式・式の値",
+    "grade": 1,
+    "prerequisites": [
+      "ma-signed"
+    ]
+  },
+  {
+    "id": "ma-ratio",
+    "subject": "数学",
+    "sub": "代数",
+    "name": "割合・比と方程式の利用",
+    "grade": 1,
+    "prerequisites": [
+      "math-equation"
+    ]
+  },
+  {
+    "id": "ma-proportion",
+    "subject": "数学",
+    "sub": "代数",
+    "name": "比例・反比例",
+    "grade": 1,
+    "prerequisites": [
+      "ma-expression"
+    ]
+  },
+  {
+    "id": "ma-simultaneous",
+    "subject": "数学",
+    "sub": "代数",
+    "name": "連立方程式",
+    "grade": 2,
+    "prerequisites": [
+      "math-equation"
+    ]
+  },
+  {
+    "id": "ma-linear",
+    "subject": "数学",
+    "sub": "代数",
+    "name": "一次関数",
+    "grade": 2,
+    "prerequisites": [
+      "ma-proportion"
+    ]
+  },
+  {
+    "id": "ma-expand",
+    "subject": "数学",
+    "sub": "代数",
+    "name": "展開・因数分解",
+    "grade": 3,
+    "prerequisites": [
+      "ma-expression"
+    ]
+  },
+  {
+    "id": "ma-root",
+    "subject": "数学",
+    "sub": "代数",
+    "name": "平方根",
+    "grade": 3,
+    "prerequisites": [
+      "ma-signed"
+    ]
+  },
+  {
+    "id": "ma-quadratic-eq",
+    "subject": "数学",
+    "sub": "代数",
+    "name": "二次方程式",
+    "grade": 3,
+    "prerequisites": [
+      "ma-expand",
+      "ma-root"
+    ]
+  },
+  {
+    "id": "ma-quadratic-fn",
+    "subject": "数学",
+    "sub": "代数",
+    "name": "関数y=ax²",
+    "grade": 3,
+    "prerequisites": [
+      "ma-linear",
+      "ma-root"
+    ]
+  },
+  {
+    "id": "ma-data",
+    "subject": "数学",
+    "sub": "代数",
+    "name": "データの整理・代表値",
+    "grade": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "ma-probability",
+    "subject": "数学",
+    "sub": "代数",
+    "name": "確率",
+    "grade": 2,
+    "prerequisites": [
+      "ma-ratio"
+    ]
+  },
+  {
+    "id": "ma-sampling",
+    "subject": "数学",
+    "sub": "代数",
+    "name": "四分位範囲・標本調査",
+    "grade": 3,
+    "prerequisites": [
+      "ma-data"
+    ]
+  },
+  {
+    "id": "ge-plane",
+    "subject": "数学",
+    "sub": "幾何",
+    "name": "平面図形・作図・移動",
+    "grade": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "ge-solid",
+    "subject": "数学",
+    "sub": "幾何",
+    "name": "空間図形・表面積・体積",
+    "grade": 1,
+    "prerequisites": [
+      "ge-plane"
+    ]
+  },
+  {
+    "id": "ge-angle",
+    "subject": "数学",
+    "sub": "幾何",
+    "name": "平行線と多角形の角",
+    "grade": 2,
+    "prerequisites": [
+      "ge-plane"
+    ]
+  },
+  {
+    "id": "ge-congruence",
+    "subject": "数学",
+    "sub": "幾何",
+    "name": "合同と証明",
+    "grade": 2,
+    "prerequisites": [
+      "ge-angle"
+    ]
+  },
+  {
+    "id": "ge-quadrilateral",
+    "subject": "数学",
+    "sub": "幾何",
+    "name": "三角形・四角形の性質",
+    "grade": 2,
+    "prerequisites": [
+      "ge-congruence"
+    ]
+  },
+  {
+    "id": "ge-similarity",
+    "subject": "数学",
+    "sub": "幾何",
+    "name": "相似・面積比・体積比",
+    "grade": 3,
+    "prerequisites": [
+      "ge-congruence"
+    ]
+  },
+  {
+    "id": "ge-circle",
+    "subject": "数学",
+    "sub": "幾何",
+    "name": "円周角・接線",
+    "grade": 3,
+    "prerequisites": [
+      "ge-angle"
+    ]
+  },
+  {
+    "id": "ge-pythagoras",
+    "subject": "数学",
+    "sub": "幾何",
+    "name": "三平方の定理",
+    "grade": 3,
+    "prerequisites": [
+      "ma-root",
+      "ge-similarity"
+    ]
+  },
+  {
+    "id": "sc-light",
+    "subject": "理科",
+    "sub": "物理・化学",
+    "name": "光の反射・屈折・凸レンズ",
+    "grade": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "sc-force",
+    "subject": "理科",
+    "sub": "物理・化学",
+    "name": "力・圧力・浮力",
+    "grade": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "sc-electric",
+    "subject": "理科",
+    "sub": "物理・化学",
+    "name": "電流・電圧・抵抗",
+    "grade": 2,
+    "prerequisites": [
+      "ma-proportion"
+    ]
+  },
+  {
+    "id": "sc-magnet",
+    "subject": "理科",
+    "sub": "物理・化学",
+    "name": "電力・磁界・電磁誘導",
+    "grade": 2,
+    "prerequisites": [
+      "sc-electric"
+    ]
+  },
+  {
+    "id": "sc-motion",
+    "subject": "理科",
+    "sub": "物理・化学",
+    "name": "運動・仕事・エネルギー",
+    "grade": 3,
+    "prerequisites": [
+      "sc-force"
+    ]
+  },
+  {
+    "id": "sc-substance",
+    "subject": "理科",
+    "sub": "物理・化学",
+    "name": "物質・密度・気体",
+    "grade": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "sc-solution",
+    "subject": "理科",
+    "sub": "物理・化学",
+    "name": "水溶液・溶解度・状態変化",
+    "grade": 1,
+    "prerequisites": [
+      "sc-substance"
+    ]
+  },
+  {
+    "id": "sc-reaction",
+    "subject": "理科",
+    "sub": "物理・化学",
+    "name": "原子・分子・化学変化",
+    "grade": 2,
+    "prerequisites": [
+      "sc-substance"
+    ]
+  },
+  {
+    "id": "sc-oxidation",
+    "subject": "理科",
+    "sub": "物理・化学",
+    "name": "酸化・還元と熱",
+    "grade": 2,
+    "prerequisites": [
+      "sc-reaction"
+    ]
+  },
+  {
+    "id": "sc-ion",
+    "subject": "理科",
+    "sub": "物理・化学",
+    "name": "イオン・酸とアルカリ・電池",
+    "grade": 3,
+    "prerequisites": [
+      "sc-reaction",
+      "sc-electric"
+    ]
+  },
+  {
+    "id": "sc-life",
+    "subject": "理科",
+    "sub": "生物・地学",
+    "name": "生物の観察・分類",
+    "grade": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "sc-plant",
+    "subject": "理科",
+    "sub": "生物・地学",
+    "name": "植物のつくり・光合成",
+    "grade": 1,
+    "prerequisites": [
+      "sc-life"
+    ]
+  },
+  {
+    "id": "sc-cell",
+    "subject": "理科",
+    "sub": "生物・地学",
+    "name": "細胞と体のつくり",
+    "grade": 2,
+    "prerequisites": [
+      "sc-life"
+    ]
+  },
+  {
+    "id": "sc-human",
+    "subject": "理科",
+    "sub": "生物・地学",
+    "name": "消化・呼吸・循環・神経",
+    "grade": 2,
+    "prerequisites": [
+      "sc-cell"
+    ]
+  },
+  {
+    "id": "sc-genetics",
+    "subject": "理科",
+    "sub": "生物・地学",
+    "name": "生殖・遺伝・進化",
+    "grade": 3,
+    "prerequisites": [
+      "sc-cell"
+    ]
+  },
+  {
+    "id": "sc-ecology",
+    "subject": "理科",
+    "sub": "生物・地学",
+    "name": "生態系と環境",
+    "grade": 3,
+    "prerequisites": [
+      "sc-plant",
+      "sc-human"
+    ]
+  },
+  {
+    "id": "sc-earth",
+    "subject": "理科",
+    "sub": "生物・地学",
+    "name": "地震・火山・岩石・地層",
+    "grade": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "sc-weather",
+    "subject": "理科",
+    "sub": "生物・地学",
+    "name": "気象・湿度・前線",
+    "grade": 2,
+    "prerequisites": []
+  },
+  {
+    "id": "sc-space",
+    "subject": "理科",
+    "sub": "生物・地学",
+    "name": "天体・季節・月と惑星",
+    "grade": 3,
+    "prerequisites": []
+  },
+  {
+    "id": "ja-word",
+    "subject": "国語",
+    "sub": "国語2・文法・古典",
+    "name": "文節・単語・品詞",
+    "grade": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "ja-inflection",
+    "subject": "国語",
+    "sub": "国語2・文法・古典",
+    "name": "用言・活用・助動詞",
+    "grade": 2,
+    "prerequisites": [
+      "ja-word"
+    ]
+  },
+  {
+    "id": "ja-sentence",
+    "subject": "国語",
+    "sub": "国語2・文法・古典",
+    "name": "文の成分・敬語",
+    "grade": 2,
+    "prerequisites": [
+      "ja-word"
+    ]
+  },
+  {
+    "id": "ja-classic",
+    "subject": "国語",
+    "sub": "国語2・文法・古典",
+    "name": "古文の言葉・歴史的仮名遣い",
+    "grade": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "ja-kanbun",
+    "subject": "国語",
+    "sub": "国語2・文法・古典",
+    "name": "漢文の訓読・返り点",
+    "grade": 2,
+    "prerequisites": []
+  },
+  {
+    "id": "ja-logic",
+    "subject": "国語",
+    "sub": "国語3・現代文・語句",
+    "name": "説明文・論説文の構造",
+    "grade": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "ja-fiction",
+    "subject": "国語",
+    "sub": "国語3・現代文・語句",
+    "name": "物語・心情と描写",
+    "grade": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "ja-poetry",
+    "subject": "国語",
+    "sub": "国語3・現代文・語句",
+    "name": "詩・短歌・俳句と表現技法",
+    "grade": 2,
+    "prerequisites": []
+  },
+  {
+    "id": "ja-vocabulary",
+    "subject": "国語",
+    "sub": "国語3・現代文・語句",
+    "name": "漢字・語句・慣用句",
+    "grade": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "ja-expression",
+    "subject": "国語",
+    "sub": "国語3・現代文・語句",
+    "name": "要約・意見文・情報の吟味",
+    "grade": 3,
+    "prerequisites": [
+      "ja-logic"
+    ]
+  },
+  {
+    "id": "so-map",
+    "subject": "社会",
+    "sub": "地理",
+    "name": "地図・緯度経度・時差",
+    "grade": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "so-world",
+    "subject": "社会",
+    "sub": "地理",
+    "name": "世界の州・地形・生活",
+    "grade": 1,
+    "prerequisites": [
+      "so-map"
+    ]
+  },
+  {
+    "id": "so-asia",
+    "subject": "社会",
+    "sub": "地理",
+    "name": "アジアの産業と人口",
+    "grade": 1,
+    "prerequisites": [
+      "so-world"
+    ]
+  },
+  {
+    "id": "so-europe",
+    "subject": "社会",
+    "sub": "地理",
+    "name": "ヨーロッパ・アフリカ",
+    "grade": 1,
+    "prerequisites": [
+      "so-world"
+    ]
+  },
+  {
+    "id": "so-america",
+    "subject": "社会",
+    "sub": "地理",
+    "name": "南北アメリカ・オセアニア",
+    "grade": 1,
+    "prerequisites": [
+      "so-world"
+    ]
+  },
+  {
+    "id": "so-japan",
+    "subject": "社会",
+    "sub": "地理",
+    "name": "日本の地形・気候・災害",
+    "grade": 2,
+    "prerequisites": [
+      "so-map"
+    ]
+  },
+  {
+    "id": "so-industry",
+    "subject": "社会",
+    "sub": "地理",
+    "name": "日本の人口・産業・交通",
+    "grade": 2,
+    "prerequisites": [
+      "so-japan"
+    ]
+  },
+  {
+    "id": "so-region",
+    "subject": "社会",
+    "sub": "地理",
+    "name": "日本の諸地域・地域調査",
+    "grade": 2,
+    "prerequisites": [
+      "so-industry"
+    ]
+  },
+  {
+    "id": "hi-ancient",
+    "subject": "社会",
+    "sub": "歴史",
+    "name": "文明の成立・古代国家",
+    "grade": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "hi-rules",
+    "subject": "社会",
+    "sub": "歴史",
+    "name": "律令国家・奈良・平安",
+    "grade": 1,
+    "prerequisites": [
+      "hi-ancient"
+    ]
+  },
+  {
+    "id": "hi-medieval",
+    "subject": "社会",
+    "sub": "歴史",
+    "name": "鎌倉・室町と武士の政治",
+    "grade": 1,
+    "prerequisites": [
+      "hi-rules"
+    ]
+  },
+  {
+    "id": "hi-edo",
+    "subject": "社会",
+    "sub": "歴史",
+    "name": "天下統一・江戸幕府と社会",
+    "grade": 2,
+    "prerequisites": [
+      "hi-medieval"
+    ]
+  },
+  {
+    "id": "hi-modern",
+    "subject": "社会",
+    "sub": "歴史",
+    "name": "近代革命・産業革命",
+    "grade": 2,
+    "prerequisites": []
+  },
+  {
+    "id": "hi-meiji",
+    "subject": "社会",
+    "sub": "歴史",
+    "name": "開国・明治維新・近代国家",
+    "grade": 2,
+    "prerequisites": [
+      "hi-edo",
+      "hi-modern"
+    ]
+  },
+  {
+    "id": "hi-war",
+    "subject": "社会",
+    "sub": "歴史",
+    "name": "世界大戦・恐慌と日本",
+    "grade": 3,
+    "prerequisites": [
+      "hi-meiji"
+    ]
+  },
+  {
+    "id": "hi-postwar",
+    "subject": "社会",
+    "sub": "歴史",
+    "name": "戦後改革・冷戦・現代への歩み",
+    "grade": 3,
+    "prerequisites": [
+      "hi-war"
+    ]
+  },
+  {
+    "id": "ci-rights",
+    "subject": "社会",
+    "sub": "公民",
+    "name": "日本国憲法・人権",
+    "grade": 3,
+    "prerequisites": []
+  },
+  {
+    "id": "ci-politics",
+    "subject": "社会",
+    "sub": "公民",
+    "name": "国会・内閣・裁判所",
+    "grade": 3,
+    "prerequisites": [
+      "ci-rights"
+    ]
+  },
+  {
+    "id": "ci-local",
+    "subject": "社会",
+    "sub": "公民",
+    "name": "選挙・地方自治・合意形成",
+    "grade": 3,
+    "prerequisites": [
+      "ci-politics"
+    ]
+  },
+  {
+    "id": "ci-market",
+    "subject": "社会",
+    "sub": "公民",
+    "name": "市場・企業・消費者",
+    "grade": 3,
+    "prerequisites": []
+  },
+  {
+    "id": "ci-public",
+    "subject": "社会",
+    "sub": "公民",
+    "name": "財政・社会保障・国際社会",
+    "grade": 3,
+    "prerequisites": [
+      "ci-market",
+      "ci-rights"
+    ]
+  }
+]

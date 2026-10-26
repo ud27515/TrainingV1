@@ -1,0 +1,348 @@
+[
+  {
+    "id": "eq-design-01",
+    "version": 1,
+    "skill_ids": [
+      "math-equation:01",
+      "math-equation:02"
+    ],
+    "primary_skill_id": "math-equation:01",
+    "family_id": "balance_inverse",
+    "structure_signature": "balance_inverse",
+    "operation": "solve",
+    "representation": "equation",
+    "level": "foundation",
+    "prompt": "3x＋5＝20 を解き、最初に両辺へ行う操作も答えてください。",
+    "answer": {
+      "x": "5",
+      "first_operation": "両辺から5を引く"
+    },
+    "options": null,
+    "misconception_by_option": {},
+    "explanation": "両辺から5を引くと3x=15。両辺を3で割るとx=5。",
+    "grading": "structured",
+    "rubric": [
+      "両辺から5を引く",
+      "x=5"
+    ],
+    "source": "original_authored",
+    "review_status": "draft_not_released",
+    "estimated_effort": "standard",
+    "mastery_evidence": "primary_skill_only_unless_steps_observed"
+  },
+  {
+    "id": "eq-design-02",
+    "version": 1,
+    "skill_ids": [
+      "math-equation:03"
+    ],
+    "primary_skill_id": "math-equation:03",
+    "family_id": "brackets_both_sides",
+    "structure_signature": "brackets_both_sides",
+    "operation": "solve",
+    "representation": "equation",
+    "level": "application",
+    "prompt": "3(x−2)＝2x＋7 を解いてください。",
+    "answer": "13",
+    "options": null,
+    "misconception_by_option": {},
+    "explanation": "3x−6=2x+7。両辺から2xを引き、6を足すとx=13。",
+    "grading": "exact",
+    "rubric": [],
+    "source": "original_authored",
+    "review_status": "draft_not_released",
+    "estimated_effort": "standard",
+    "mastery_evidence": "primary_skill_only_unless_steps_observed"
+  },
+  {
+    "id": "eq-design-03",
+    "version": 1,
+    "skill_ids": [
+      "math-equation:03"
+    ],
+    "primary_skill_id": "math-equation:03",
+    "family_id": "rational_denominator",
+    "structure_signature": "rational_denominator",
+    "operation": "solve",
+    "representation": "equation",
+    "level": "application",
+    "prompt": "(x−1)/3 ＋ (x＋2)/2 ＝4 を解いてください。",
+    "answer": "4",
+    "options": null,
+    "misconception_by_option": {},
+    "explanation": "両辺を6倍すると2(x−1)+3(x+2)=24。5x+4=24からx=4。",
+    "grading": "exact",
+    "rubric": [],
+    "source": "original_authored",
+    "review_status": "draft_not_released",
+    "estimated_effort": "standard",
+    "mastery_evidence": "primary_skill_only_unless_steps_observed"
+  },
+  {
+    "id": "eq-design-04",
+    "version": 1,
+    "skill_ids": [
+      "math-equation:03"
+    ],
+    "primary_skill_id": "math-equation:03",
+    "family_id": "distribution_error",
+    "structure_signature": "distribution_error",
+    "operation": "diagnose",
+    "representation": "worked_solution",
+    "level": "application",
+    "prompt": "2(x＋3)＝14 → 2x＋3＝14 → 2x＝11 → x＝5.5。最初に等式の意味が変わったのはどの操作ですか？",
+    "answer": "括弧を外す操作",
+    "options": [
+      "括弧を外す操作",
+      "両辺から3を引く操作",
+      "両辺を2で割る操作"
+    ],
+    "misconception_by_option": {
+      "両辺から3を引く操作": "最初の誤りを追跡できない",
+      "両辺を2で割る操作": "等式操作と式の展開を混同"
+    },
+    "explanation": "2をxだけでなく3にも掛けるため、2x+6=14が正しい式です。",
+    "grading": "exact",
+    "rubric": [],
+    "source": "original_authored",
+    "review_status": "draft_not_released",
+    "estimated_effort": "standard",
+    "mastery_evidence": "primary_skill_only_unless_steps_observed"
+  },
+  {
+    "id": "eq-design-05",
+    "version": 1,
+    "skill_ids": [
+      "math-equation:04"
+    ],
+    "primary_skill_id": "math-equation:04",
+    "family_id": "substitution_check",
+    "structure_signature": "substitution_check",
+    "operation": "verify",
+    "representation": "candidate_answer",
+    "level": "foundation",
+    "prompt": "4x−3＝−11 の解をx＝−2と予想しました。代入した左辺の値と、この予想が正しいかを答えてください。",
+    "answer": {
+      "left": "-11",
+      "valid": true
+    },
+    "options": null,
+    "misconception_by_option": {},
+    "explanation": "4×(−2)−3=−11で、右辺と一致します。",
+    "grading": "structured",
+    "rubric": [
+      "左辺−11",
+      "左右一致を確認"
+    ],
+    "source": "original_authored",
+    "review_status": "draft_not_released",
+    "estimated_effort": "standard",
+    "mastery_evidence": "primary_skill_only_unless_steps_observed"
+  },
+  {
+    "id": "eq-design-06",
+    "version": 1,
+    "skill_ids": [
+      "math-equation:05"
+    ],
+    "primary_skill_id": "math-equation:05",
+    "family_id": "fixed_plus_variable",
+    "structure_signature": "fixed_plus_variable",
+    "operation": "model",
+    "representation": "word_problem",
+    "level": "application",
+    "prompt": "1本80円の鉛筆を何本かと、120円の消しゴムを1個買い、合計520円でした。鉛筆の本数をxとして式を選んでください。",
+    "answer": "80x＋120＝520",
+    "options": [
+      "80x＋120＝520",
+      "(80＋120)x＝520",
+      "80＋120x＝520"
+    ],
+    "misconception_by_option": {
+      "(80＋120)x＝520": "固定費を数量倍する",
+      "80＋120x＝520": "未知数の対象を取り違える"
+    },
+    "explanation": "鉛筆の代金80xと消しゴム代120の和が520です。",
+    "grading": "exact",
+    "rubric": [],
+    "source": "original_authored",
+    "review_status": "draft_not_released",
+    "estimated_effort": "standard",
+    "mastery_evidence": "primary_skill_only_unless_steps_observed"
+  },
+  {
+    "id": "eq-design-07",
+    "version": 1,
+    "skill_ids": [
+      "math-equation:06",
+      "math-equation:05"
+    ],
+    "primary_skill_id": "math-equation:06",
+    "family_id": "discrete_feasibility",
+    "structure_signature": "discrete_feasibility",
+    "operation": "evaluate",
+    "representation": "word_problem",
+    "level": "transfer",
+    "prompt": "40人を、3人ずつの班と5人ずつの班に分け、合計9班にします。全員がどちらかの班に一度だけ入るとき、この分け方は可能ですか？ 理由も答えてください。",
+    "answer": "不可能",
+    "options": null,
+    "misconception_by_option": {},
+    "explanation": "5人班をxとすると5x+3(9−x)=40。x=6.5となるが班数は整数なので不可能です。",
+    "grading": "rubric",
+    "rubric": [
+      "5x+3(9−x)=40等の立式",
+      "x=6.5等の矛盾を導く",
+      "班数は整数という条件に戻す"
+    ],
+    "source": "original_authored",
+    "review_status": "draft_not_released",
+    "estimated_effort": "standard",
+    "mastery_evidence": "primary_skill_only_unless_steps_observed"
+  },
+  {
+    "id": "eq-design-08",
+    "version": 1,
+    "skill_ids": [
+      "math-equation:06",
+      "math-equation:05"
+    ],
+    "primary_skill_id": "math-equation:06",
+    "family_id": "hidden_vs_full_crossing",
+    "structure_signature": "hidden_vs_full_crossing",
+    "operation": "model",
+    "representation": "motion_word_problem",
+    "level": "transfer",
+    "prompt": "長さ180mの電車が長さ420mのトンネルを一定の速さで通ります。電車の全体がトンネル内に隠れている時間は12秒です。先頭がトンネルに入ってから最後尾が出るまで何秒ですか？",
+    "answer": "30",
+    "options": null,
+    "misconception_by_option": {},
+    "explanation": "全体が隠れている間に先頭が進む距離は420−180=240m。速さは240÷12=20m/秒。入り始めから出終わるまでは420+180=600m進むので30秒です。",
+    "grading": "exact",
+    "rubric": [],
+    "source": "original_authored",
+    "review_status": "draft_not_released",
+    "estimated_effort": "standard",
+    "mastery_evidence": "primary_skill_only_unless_steps_observed"
+  },
+  {
+    "id": "eq-design-09",
+    "version": 1,
+    "skill_ids": [
+      "math-equation:07",
+      "math-equation:05"
+    ],
+    "primary_skill_id": "math-equation:07",
+    "family_id": "underdetermined_constraints",
+    "structure_signature": "underdetermined_constraints",
+    "operation": "evaluate",
+    "representation": "word_problem",
+    "level": "transfer",
+    "prompt": "大人券1000円、子ども券600円を、それぞれ1枚以上買って合計6600円でした。大人券の枚数は一つに決まりますか？",
+    "answer": "一つに決まらない",
+    "options": [
+      "一つに決まらない",
+      "3枚に決まる",
+      "6枚に決まる"
+    ],
+    "misconception_by_option": {
+      "3枚に決まる": "一つの適合例を唯一解と誤認する",
+      "6枚に決まる": "一つの適合例を唯一解と誤認する"
+    },
+    "explanation": "大人3枚・子ども6枚でも、大人6枚・子ども1枚でも6600円です。合計枚数などの条件が必要です。",
+    "grading": "exact",
+    "rubric": [],
+    "source": "original_authored",
+    "review_status": "draft_not_released",
+    "estimated_effort": "standard",
+    "mastery_evidence": "primary_skill_only_unless_steps_observed"
+  },
+  {
+    "id": "eq-design-10",
+    "version": 1,
+    "skill_ids": [
+      "math-equation:07",
+      "math-equation:01"
+    ],
+    "primary_skill_id": "math-equation:07",
+    "family_id": "contradiction",
+    "structure_signature": "contradiction",
+    "operation": "classify",
+    "representation": "equation",
+    "level": "transfer",
+    "prompt": "x＋4＝x＋7 を満たす数xはありますか？",
+    "answer": "ない",
+    "options": [
+      "ない",
+      "x＝3だけ",
+      "x＝−3だけ"
+    ],
+    "misconception_by_option": {
+      "x＝3だけ": "文字項の相殺をせず定数差を解とする",
+      "x＝−3だけ": "文字項の相殺をせず定数差を解とする"
+    },
+    "explanation": "両辺からxを引くと4=7という成立しない等式になるため、解はありません。",
+    "grading": "exact",
+    "rubric": [],
+    "source": "original_authored",
+    "review_status": "draft_not_released",
+    "estimated_effort": "standard",
+    "mastery_evidence": "primary_skill_only_unless_steps_observed"
+  },
+  {
+    "id": "eq-design-11",
+    "version": 1,
+    "skill_ids": [
+      "math-equation:07",
+      "math-equation:01"
+    ],
+    "primary_skill_id": "math-equation:07",
+    "family_id": "identity",
+    "structure_signature": "identity",
+    "operation": "classify",
+    "representation": "equation",
+    "level": "transfer",
+    "prompt": "3(x＋2)＝3x＋6 を満たすxは？",
+    "answer": "どの数でもよい",
+    "options": [
+      "どの数でもよい",
+      "x＝0だけ",
+      "当てはまる数はない"
+    ],
+    "misconception_by_option": {
+      "x＝0だけ": "0=0をx=0と誤認する",
+      "当てはまる数はない": "文字が消えたことを矛盾と誤認する"
+    },
+    "explanation": "左辺を展開すると右辺と同じ式になり、どの数を代入しても成り立ちます。",
+    "grading": "exact",
+    "rubric": [],
+    "source": "original_authored",
+    "review_status": "draft_not_released",
+    "estimated_effort": "standard",
+    "mastery_evidence": "primary_skill_only_unless_steps_observed"
+  },
+  {
+    "id": "eq-design-12",
+    "version": 1,
+    "skill_ids": [
+      "math-equation:04",
+      "math-equation:03"
+    ],
+    "primary_skill_id": "math-equation:04",
+    "family_id": "inverse_construction",
+    "structure_signature": "inverse_construction",
+    "operation": "construct",
+    "representation": "equation",
+    "level": "application",
+    "prompt": "x＝4が2x＋c＝13の解になるように、定数cを決めてください。",
+    "answer": "5",
+    "options": null,
+    "misconception_by_option": {},
+    "explanation": "xに4を代入すると8+c=13。c=5です。",
+    "grading": "exact",
+    "rubric": [],
+    "source": "original_authored",
+    "review_status": "draft_not_released",
+    "estimated_effort": "standard",
+    "mastery_evidence": "primary_skill_only_unless_steps_observed"
+  }
+]

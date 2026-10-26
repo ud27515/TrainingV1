@@ -1,0 +1,62 @@
+{
+  "unit_id": "ma-ratio",
+  "status": "implemented_with_review_pending",
+  "mapping": [
+    {
+      "design_skill_id": "ma-ratio:01",
+      "runtime_skill_id": "ma-ratio:01",
+      "objective": "基準量と割合を特定する",
+      "evidence": "choice_and_numeric_only",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-ratio:02",
+      "runtime_skill_id": "ma-ratio:02",
+      "objective": "増減前後の基準の違いを説明する",
+      "evidence": "choice_and_numeric_only",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-ratio:03",
+      "runtime_skill_id": "ma-ratio:03",
+      "objective": "比で全体を分ける",
+      "evidence": "choice_and_numeric_only",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-ratio:04",
+      "runtime_skill_id": "ma-ratio:04",
+      "objective": "濃度を質量の比で表す",
+      "evidence": "choice_and_numeric_only",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-ratio:05",
+      "runtime_skill_id": "ma-ratio:05",
+      "objective": "速さ・時間・距離の単位をそろえる",
+      "evidence": "choice_and_numeric_only",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-ratio:06",
+      "runtime_skill_id": "ma-ratio:06",
+      "objective": "過不足や売買を立式する",
+      "evidence": "choice_and_numeric_only",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-ratio:07",
+      "runtime_skill_id": "ma-ratio:07",
+      "objective": "動く図形の重なりを時間の式にする",
+      "evidence": "choice_and_numeric_only",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented"
+    }
+  ]
+}

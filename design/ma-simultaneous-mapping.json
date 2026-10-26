@@ -1,0 +1,60 @@
+{
+  "unit_id": "ma-simultaneous",
+  "status": "implemented_with_review_pending",
+  "mapping": [
+    {
+      "design_skill_id": "ma-simultaneous:01",
+      "runtime_skill_id": "ma-simultaneous:01",
+      "objective": "加減法で文字を消去する",
+      "evidence": "choice_numeric_tables_and_coordinate_descriptions",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented",
+      "graph_drawing": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-simultaneous:02",
+      "runtime_skill_id": "ma-simultaneous:02",
+      "objective": "代入法で一文字にする",
+      "evidence": "choice_numeric_tables_and_coordinate_descriptions",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented",
+      "graph_drawing": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-simultaneous:03",
+      "runtime_skill_id": "ma-simultaneous:03",
+      "objective": "分数小数を含む連立式を解く",
+      "evidence": "choice_numeric_tables_and_coordinate_descriptions",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented",
+      "graph_drawing": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-simultaneous:04",
+      "runtime_skill_id": "ma-simultaneous:04",
+      "objective": "二つの数量条件を立式する",
+      "evidence": "choice_numeric_tables_and_coordinate_descriptions",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented",
+      "graph_drawing": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-simultaneous:05",
+      "runtime_skill_id": "ma-simultaneous:05",
+      "objective": "速さ・濃度・料金の関係を連立させる",
+      "evidence": "choice_numeric_tables_and_coordinate_descriptions",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented",
+      "graph_drawing": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-simultaneous:06",
+      "runtime_skill_id": "ma-simultaneous:06",
+      "objective": "解の組を両式と文脈で検算する",
+      "evidence": "choice_numeric_tables_and_coordinate_descriptions",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented",
+      "graph_drawing": "not_implemented"
+    }
+  ]
+}

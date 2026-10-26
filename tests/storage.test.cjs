@@ -1,0 +1,11 @@
+const assert=require('node:assert/strict');for(const f of ['content','curriculum','equations','language-science','reading-society','variety','signed-numbers','expressions','ratios','algebra-batch','geometry','geometry-content','engine','storage'])require('../dist/'+f+'.js');
+const E=TrailEngine,S=TrailStorage;let n=0;function test(name,f){f();console.log('PASS '+name);n++;}
+function setup(raw){let map=new Map(raw===undefined?[]:[[S.KEY,raw]]),fail=null;const storage={getItem:k=>map.get(k)??null,setItem:(k,v)=>{if(k===fail)throw Error('quota');map.set(k,v);}};return {map,store:S.create(storage,E.validate),fail:k=>fail=k};}
+function fresh(name){let s=E.fresh();s.name=name;return s;}
+test('restore preserves exact previous bytes and undo swaps valid records',()=>{const a=JSON.stringify(fresh('A')),b=fresh('B'),x=setup(a);x.store.replace(b,10);assert.equal(x.store.inspect().raw,a);assert.equal(x.store.inspect().at,10);assert.equal(x.store.undo(20).name,'A');assert.equal(x.store.inspect().state.name,'B');assert.equal(x.store.undo(30).name,'B');});
+test('invalid imported data never changes main or recovery data',()=>{const x=setup(JSON.stringify(fresh('A')));const before=new Map(x.map);assert.throws(()=>x.store.replace({kind:'wrong'}));assert.deepEqual(x.map,before);});
+test('failed preservation prevents destructive replacement',()=>{const raw=JSON.stringify(fresh('A')),x=setup(raw);x.fail(S.RECOVERY);assert.throws(()=>x.store.replace(fresh('B')));assert.equal(x.map.get(S.KEY),raw);assert.equal(x.map.has(S.RECOVERY),false);});
+test('failed main write leaves original intact and recoverable',()=>{const raw=JSON.stringify(fresh('A')),x=setup(raw);x.fail(S.KEY);assert.throws(()=>x.store.replace(fresh('B')));assert.equal(x.map.get(S.KEY),raw);assert.equal(x.store.inspect().raw,raw);});
+test('unreadable original is retained for export and never silently loaded',()=>{const raw='{broken',x=setup(raw);x.store.replace(fresh('B'));assert.equal(x.store.inspect().raw,raw);assert.equal(x.store.inspect().state,null);assert.throws(()=>x.store.undo());assert.equal(JSON.parse(x.map.get(S.KEY)).name,'B');});
+test('first import without prior data does not fabricate a previous record',()=>{const x=setup();x.store.replace(fresh('B'));assert.equal(x.store.inspect(),null);assert.throws(()=>x.store.undo());});
+console.log(n+' storage tests passed');

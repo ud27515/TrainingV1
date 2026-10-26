@@ -1,0 +1,46 @@
+{
+  "unit_id": "ge-angle",
+  "status": "implemented_with_review_pending",
+  "mapping": [
+    {
+      "design_skill_id": "ge-angle:01",
+      "runtime_skill_id": "ge-angle:01",
+      "objective": "平行線の同位角・錯角を用いる",
+      "evidence": "choice_numeric_diagram_conditions",
+      "editorial_review": "pending",
+      "free_proof_and_construction": "not_implemented"
+    },
+    {
+      "design_skill_id": "ge-angle:02",
+      "runtime_skill_id": "ge-angle:02",
+      "objective": "三角形の内角外角を用いる",
+      "evidence": "choice_numeric_diagram_conditions",
+      "editorial_review": "pending",
+      "free_proof_and_construction": "not_implemented"
+    },
+    {
+      "design_skill_id": "ge-angle:03",
+      "runtime_skill_id": "ge-angle:03",
+      "objective": "多角形の内角和・外角和を求める",
+      "evidence": "choice_numeric_diagram_conditions",
+      "editorial_review": "pending",
+      "free_proof_and_construction": "not_implemented"
+    },
+    {
+      "design_skill_id": "ge-angle:04",
+      "runtime_skill_id": "ge-angle:04",
+      "objective": "複合図形の角を補助線で追う",
+      "evidence": "choice_numeric_diagram_conditions",
+      "editorial_review": "pending",
+      "free_proof_and_construction": "not_implemented"
+    },
+    {
+      "design_skill_id": "ge-angle:05",
+      "runtime_skill_id": "ge-angle:05",
+      "objective": "逆を使って平行を示す",
+      "evidence": "choice_numeric_diagram_conditions",
+      "editorial_review": "pending",
+      "free_proof_and_construction": "not_implemented"
+    }
+  ]
+}

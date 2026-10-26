@@ -1,0 +1,54 @@
+{
+  "unit_id": "ge-plane",
+  "status": "implemented_with_review_pending",
+  "mapping": [
+    {
+      "design_skill_id": "ge-plane:01",
+      "runtime_skill_id": "ge-plane:01",
+      "objective": "直線・線分・半直線と角を区別する",
+      "evidence": "choice_numeric_diagram_conditions",
+      "editorial_review": "pending",
+      "free_proof_and_construction": "not_implemented"
+    },
+    {
+      "design_skill_id": "ge-plane:02",
+      "runtime_skill_id": "ge-plane:02",
+      "objective": "平行移動・回転移動・対称移動を説明する",
+      "evidence": "choice_numeric_diagram_conditions",
+      "editorial_review": "pending",
+      "free_proof_and_construction": "not_implemented"
+    },
+    {
+      "design_skill_id": "ge-plane:03",
+      "runtime_skill_id": "ge-plane:03",
+      "objective": "垂直二等分線を作図する",
+      "evidence": "choice_numeric_diagram_conditions",
+      "editorial_review": "pending",
+      "free_proof_and_construction": "not_implemented"
+    },
+    {
+      "design_skill_id": "ge-plane:04",
+      "runtime_skill_id": "ge-plane:04",
+      "objective": "角の二等分線と垂線を作図する",
+      "evidence": "choice_numeric_diagram_conditions",
+      "editorial_review": "pending",
+      "free_proof_and_construction": "not_implemented"
+    },
+    {
+      "design_skill_id": "ge-plane:05",
+      "runtime_skill_id": "ge-plane:05",
+      "objective": "条件を満たす点の集合を捉える",
+      "evidence": "choice_numeric_diagram_conditions",
+      "editorial_review": "pending",
+      "free_proof_and_construction": "not_implemented"
+    },
+    {
+      "design_skill_id": "ge-plane:06",
+      "runtime_skill_id": "ge-plane:06",
+      "objective": "円と扇形の長さ・面積を求める",
+      "evidence": "choice_numeric_diagram_conditions",
+      "editorial_review": "pending",
+      "free_proof_and_construction": "not_implemented"
+    }
+  ]
+}

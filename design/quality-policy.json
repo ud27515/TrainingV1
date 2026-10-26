@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "status": "provisional_design_not_runtime",
+  "release_gates": [
+    {
+      "id": "Q01",
+      "criterion": "問題文だけで必要な条件と素材がそろう",
+      "verification": "editorial_review",
+      "blocking": true
+    },
+    {
+      "id": "Q02",
+      "criterion": "正答・採点範囲を別解法で照合し、複数正解を排除する",
+      "verification": "independent_solution_and_tests",
+      "blocking": true
+    },
+    {
+      "id": "Q03",
+      "criterion": "選択肢は同種の答えで、実際の誤解に対応する",
+      "verification": "editorial_review",
+      "blocking": true
+    },
+    {
+      "id": "Q04",
+      "criterion": "語長・単位・文法形・極端な表現だけで正解が分からない",
+      "verification": "editorial_review",
+      "blocking": true
+    },
+    {
+      "id": "Q05",
+      "criterion": "解説が答えの言い換えでなく理由と誤解を扱う",
+      "verification": "editorial_review",
+      "blocking": true
+    },
+    {
+      "id": "Q06",
+      "criterion": "生成問題は全パラメータで解・制約・選択肢を検証する",
+      "verification": "exhaustive_or_bounded_property_tests",
+      "blocking": true
+    },
+    {
+      "id": "Q07",
+      "criterion": "問題を隠して選択肢だけ見た推測容易性を点検する",
+      "verification": "blind_editorial_review",
+      "blocking": true
+    },
+    {
+      "id": "Q08",
+      "criterion": "図・表・音声の内容と設問の整合、代替表現を確認する",
+      "verification": "render_and_content_review",
+      "blocking": true
+    },
+    {
+      "id": "Q09",
+      "criterion": "出典・権利・事実の基準日・版を保持する",
+      "verification": "metadata_and_source_review",
+      "blocking": true
+    },
+    {
+      "id": "Q10",
+      "criterion": "素材違い・数字違いを構造の多様性として数えない",
+      "verification": "structural_family_review",
+      "blocking": true
+    }
+  ],
+  "diversity": {
+    "exact_repeat_last_attempts": 30,
+    "same_family_consecutive_max": 1,
+    "family_lookback": 8,
+    "same_family_in_lookback_max": 2,
+    "standard_set_size": 5,
+    "minimum_distinct_families_per_standard_set": 3,
+    "minimum_distinct_operations_per_standard_set": 2,
+    "insufficient_pool": "offer_adjacent_skill_or_explicit_revisit_never_silent_duplicate",
+    "explicit_revisit": "allowed_without_daily_point_cap_but_no_new_mastery_evidence_from_immediate_repeat"
+  },
+  "mastery": {
+    "school_status": [
+      "unknown",
+      "self_reported_unlearned",
+      "self_reported_learned"
+    ],
+    "evidence_states": [
+      "unobserved",
+      "learning_with_support",
+      "independent_seen",
+      "retained",
+      "transfer_seen"
+    ],
+    "independent_seen": {
+      "min_correct": 2,
+      "min_distinct_families": 2,
+      "hint_allowed": false,
+      "same_item_repeats_count": false
+    },
+    "retained": {
+      "requires": "independent_seen",
+      "additional_correct_after_days": 2,
+      "additional_distinct_family_required": true
+    },
+    "transfer_seen": {
+      "requires": "retained",
+      "unseen_transfer_items": 2,
+      "min_distinct_families": 2,
+      "reason_evidence_required": true
+    },
+    "single_error": "flag_recheck_keep_history_do_not_reset",
+    "unsupported_format": "not_measured_never_infer_from_multiple_choice",
+    "school_status_affects_mastery": false,
+    "timing_affects_mastery": false,
+    "rules_are_empirically_validated": false
+  },
+  "effort": {
+    "daily_cap": null,
+    "diminishing_returns": false,
+    "correctness_multiplier": false,
+    "speed_multiplier": false,
+    "allowance_rate": null,
+    "unit_points_current": 1,
+    "normalization_status": "pilot_observation_pending",
+    "xp_per_task": 10
+  }
+}

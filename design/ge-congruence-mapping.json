@@ -1,0 +1,54 @@
+{
+  "unit_id": "ge-congruence",
+  "status": "implemented_with_review_pending",
+  "mapping": [
+    {
+      "design_skill_id": "ge-congruence:01",
+      "runtime_skill_id": "ge-congruence:01",
+      "objective": "仮定と結論を分ける",
+      "evidence": "choice_numeric_diagram_conditions",
+      "editorial_review": "pending",
+      "free_proof_and_construction": "not_implemented"
+    },
+    {
+      "design_skill_id": "ge-congruence:02",
+      "runtime_skill_id": "ge-congruence:02",
+      "objective": "頂点と辺の対応を定める",
+      "evidence": "choice_numeric_diagram_conditions",
+      "editorial_review": "pending",
+      "free_proof_and_construction": "not_implemented"
+    },
+    {
+      "design_skill_id": "ge-congruence:03",
+      "runtime_skill_id": "ge-congruence:03",
+      "objective": "合同条件を過不足なく選ぶ",
+      "evidence": "choice_numeric_diagram_conditions",
+      "editorial_review": "pending",
+      "free_proof_and_construction": "not_implemented"
+    },
+    {
+      "design_skill_id": "ge-congruence:04",
+      "runtime_skill_id": "ge-congruence:04",
+      "objective": "根拠をつないで証明を書く",
+      "evidence": "choice_numeric_diagram_conditions",
+      "editorial_review": "pending",
+      "free_proof_and_construction": "not_implemented"
+    },
+    {
+      "design_skill_id": "ge-congruence:05",
+      "runtime_skill_id": "ge-congruence:05",
+      "objective": "不十分な条件の反例を示す",
+      "evidence": "choice_numeric_diagram_conditions",
+      "editorial_review": "pending",
+      "free_proof_and_construction": "not_implemented"
+    },
+    {
+      "design_skill_id": "ge-congruence:06",
+      "runtime_skill_id": "ge-congruence:06",
+      "objective": "補助線の目的を説明する",
+      "evidence": "choice_numeric_diagram_conditions",
+      "editorial_review": "pending",
+      "free_proof_and_construction": "not_implemented"
+    }
+  ]
+}

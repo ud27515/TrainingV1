@@ -1,0 +1,60 @@
+{
+  "unit_id": "ma-proportion",
+  "status": "implemented_with_review_pending",
+  "mapping": [
+    {
+      "design_skill_id": "ma-proportion:01",
+      "runtime_skill_id": "ma-proportion:01",
+      "objective": "比例定数を表から求める",
+      "evidence": "choice_numeric_tables_and_coordinate_descriptions",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented",
+      "graph_drawing": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-proportion:02",
+      "runtime_skill_id": "ma-proportion:02",
+      "objective": "比例を式とグラフで表す",
+      "evidence": "choice_numeric_tables_and_coordinate_descriptions",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented",
+      "graph_drawing": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-proportion:03",
+      "runtime_skill_id": "ma-proportion:03",
+      "objective": "反比例を積一定として読む",
+      "evidence": "choice_numeric_tables_and_coordinate_descriptions",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented",
+      "graph_drawing": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-proportion:04",
+      "runtime_skill_id": "ma-proportion:04",
+      "objective": "座標と象限を読む",
+      "evidence": "choice_numeric_tables_and_coordinate_descriptions",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented",
+      "graph_drawing": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-proportion:05",
+      "runtime_skill_id": "ma-proportion:05",
+      "objective": "比例と反比例を資料から識別する",
+      "evidence": "choice_numeric_tables_and_coordinate_descriptions",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented",
+      "graph_drawing": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-proportion:06",
+      "runtime_skill_id": "ma-proportion:06",
+      "objective": "変域と実際に使える値を判断する",
+      "evidence": "choice_numeric_tables_and_coordinate_descriptions",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented",
+      "graph_drawing": "not_implemented"
+    }
+  ]
+}

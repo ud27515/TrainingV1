@@ -1,0 +1,54 @@
+{
+  "unit_id": "ma-signed",
+  "status": "implemented_with_review_pending",
+  "mapping": [
+    {
+      "design_skill_id": "ma-signed:01",
+      "runtime_skill_id": "ma-signed:01",
+      "objective": "数直線で大小と絶対値を判断する",
+      "evidence": "choice_and_numeric_only",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-signed:02",
+      "runtime_skill_id": "ma-signed:02",
+      "objective": "符号を含む加減を計算する",
+      "evidence": "choice_and_numeric_only",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-signed:03",
+      "runtime_skill_id": "ma-signed:03",
+      "objective": "乗除の符号を判断する",
+      "evidence": "choice_and_numeric_only",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-signed:04",
+      "runtime_skill_id": "ma-signed:04",
+      "objective": "累乗と括弧の優先順を守る",
+      "evidence": "choice_and_numeric_only",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-signed:05",
+      "runtime_skill_id": "ma-signed:05",
+      "objective": "四則混合を計算する",
+      "evidence": "choice_and_numeric_only",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-signed:06",
+      "runtime_skill_id": "ma-signed:06",
+      "objective": "正負の数で変化や基準との差を表す",
+      "evidence": "choice_and_numeric_only",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented"
+    }
+  ]
+}

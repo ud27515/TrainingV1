@@ -1,0 +1,60 @@
+{
+  "unit_id": "ma-linear",
+  "status": "implemented_with_review_pending",
+  "mapping": [
+    {
+      "design_skill_id": "ma-linear:01",
+      "runtime_skill_id": "ma-linear:01",
+      "objective": "変化の割合と切片を表から求める",
+      "evidence": "choice_numeric_tables_and_coordinate_descriptions",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented",
+      "graph_drawing": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-linear:02",
+      "runtime_skill_id": "ma-linear:02",
+      "objective": "式とグラフを相互に変換する",
+      "evidence": "choice_numeric_tables_and_coordinate_descriptions",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented",
+      "graph_drawing": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-linear:03",
+      "runtime_skill_id": "ma-linear:03",
+      "objective": "二点から式を決める",
+      "evidence": "choice_numeric_tables_and_coordinate_descriptions",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented",
+      "graph_drawing": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-linear:04",
+      "runtime_skill_id": "ma-linear:04",
+      "objective": "交点を連立方程式で求める",
+      "evidence": "choice_numeric_tables_and_coordinate_descriptions",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented",
+      "graph_drawing": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-linear:05",
+      "runtime_skill_id": "ma-linear:05",
+      "objective": "区間ごとの変化を読む",
+      "evidence": "choice_numeric_tables_and_coordinate_descriptions",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented",
+      "graph_drawing": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-linear:06",
+      "runtime_skill_id": "ma-linear:06",
+      "objective": "料金や移動の条件をグラフで比較する",
+      "evidence": "choice_numeric_tables_and_coordinate_descriptions",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented",
+      "graph_drawing": "not_implemented"
+    }
+  ]
+}

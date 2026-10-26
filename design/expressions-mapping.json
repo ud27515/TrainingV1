@@ -1,0 +1,62 @@
+{
+  "unit_id": "ma-expression",
+  "status": "implemented_with_review_pending",
+  "mapping": [
+    {
+      "design_skill_id": "ma-expression:01",
+      "runtime_skill_id": "ma-expression:01",
+      "objective": "積・商を文字式の規則で表す",
+      "evidence": "choice_and_numeric_only",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-expression:02",
+      "runtime_skill_id": "ma-expression:02",
+      "objective": "式に値を代入する",
+      "evidence": "choice_and_numeric_only",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-expression:03",
+      "runtime_skill_id": "ma-expression:03",
+      "objective": "同類項をまとめる",
+      "evidence": "choice_and_numeric_only",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-expression:04",
+      "runtime_skill_id": "ma-expression:04",
+      "objective": "分配法則で括弧を外す",
+      "evidence": "choice_and_numeric_only",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-expression:05",
+      "runtime_skill_id": "ma-expression:05",
+      "objective": "数量関係を式で表す",
+      "evidence": "choice_and_numeric_only",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-expression:06",
+      "runtime_skill_id": "ma-expression:06",
+      "objective": "等式と不等式で条件を表す",
+      "evidence": "choice_and_numeric_only",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented"
+    },
+    {
+      "design_skill_id": "ma-expression:07",
+      "runtime_skill_id": "ma-expression:07",
+      "objective": "目的の文字について式を変形する",
+      "evidence": "choice_and_numeric_only",
+      "editorial_review": "pending",
+      "transfer_assessment": "not_implemented"
+    }
+  ]
+}
